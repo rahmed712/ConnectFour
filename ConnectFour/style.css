@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color:red;
+    font:4rem sans-serif
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#connectfour {
+    height: 540px;
+    width: 630px;
+    background-color: teal;
+    border: 10px solid black;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+#reset{
+    padding: 20px 40px;
+    margin: 10px 0;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
