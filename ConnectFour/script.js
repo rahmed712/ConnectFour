@@ -7,7 +7,7 @@ let grid = [];
 
 const rows = 6;
 const columns = 7;
-let currentColumns = Array(columns).fill(rows - 1); // Initialized with the max row index for each column.
+let currentColumns = Array(columns).fill(rows - 1); // Initialized with the max row for each column.
 
 // Initializes the game.
 window.onload = function() {
